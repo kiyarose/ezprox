@@ -1,6 +1,5 @@
 /*global Ultraviolet*/
 self.__uv$config = {
-  prefix: "/u/",
   bare: "/bare/",
   handler: "/uv/uv.handler.js",
   client: "/uv/uv.client.js",
