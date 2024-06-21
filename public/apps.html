@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <link
+      rel="shortcut icon"
+      href="./assets/images/icon.png"
+      type="image/png"
+    />
+    <title>SLA</title>
+  <link rel="stylesheet" href="./css/master.css" />
+  <link rel="stylesheet" href="https://sillylittle.tech/style.css" />
+  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="./js/preload.js"></script>
+
+  <script>
+    atOptions = {
+      'key': 'fc0ad22bd8c1ea22c8c08df927121e8f',
+      'format': 'iframe',
+      'height': 60,
+      'width': 468,
+      'params': {}
+    };
+  </script>
+</head>
+
+<body>
+  <nav>
+
+    <p id="time"></p>
+
+    <div class="navitems">
+      <div class="navitem"><a href="/">🏡Home</a></div>
+      <div class="navitem"><a selected href="/apps.html">🛂Apps</a></div>
+      <div class="navitem"><a href="/search.html">🔎Search</a></div>
+      <div class="navitem"><a href="/emulator.html">🕹️Emulator</a></div>
+    </div>
+  </nav>
+
+  <h1>Apps</h1>
+  <input type="text" class="input" id="search" placeholder="Search Apps" style="text-align: center" />
+  <div class="ad">
+    <!-- <script type="text/javascript"
+      src="//www.topcreativeformat.com/fc0ad22bd8c1ea22c8c08df927121e8f/invoke.js"></script> -->
+  </div>
+  <div class="cardgroup" id="appcards"></div>
+
+  <button class="secondary" onclick="clearcustomapps()">
+    Clear custom apps
+  </button>
+</body>
+
+<script src="./js/index.js"></script>
+<script src="./assets/data/apps.js"></script>
+<script src="./js/apps.js"></script>
+
+<script>
+  const searchInput = document.querySelector('#search')
+  const items = document.querySelectorAll('.card')
+
+  searchInput.addEventListener('input', function (event) {
+    const query = event.target.value.toLowerCase()
+
+    items.forEach(function (item) {
+      const title = item.querySelector('.card h4').textContent.toLowerCase()
+
+      if (title.includes(query)) {
+        item.style.display = 'block'
+      } else {
+        item.style.display = 'none'
+      }
+    })
+  })
+</script>
+<meta property="description" content="Silly Little App - App Lister" />
+<meta property="og:image" content="https://status.sillylittle.tech/assets/status_pages_v2/favicons/operational-4a98629aac4c4be550d1c9eebbdade51ed628b4b9841ad08ffc8e326477448d7.png">
+<meta property="og:site_name" content="https://go.sillylittle.tech/apps">
+<meta property="og:title" content="SLA - App Lister">
+<meta property="og:title" content="Silly Little App - App Lister">
+<meta property="og:url" content="https://go.sillylittle.tech/apps">
+</html>
