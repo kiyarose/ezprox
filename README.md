@@ -9,5 +9,5 @@ for setup instructions and...\
 important info!**\
 or use the public url @ https://prox.sillylittle.tech
 
-API Expects a http URL after the first trailing slash.
+API Expects a http URL after `/u/`. \
 Invalid URL will return error.
