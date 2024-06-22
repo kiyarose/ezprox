@@ -10,8 +10,8 @@
   }],
   "rewrites": [
     {
-      "source": "/https:/(.*)",
-      "destination": "/https://$1"
+      "source": "/u/https:/(.*)",
+      "destination": "/u/https://$1"
     }
   ]
 }
