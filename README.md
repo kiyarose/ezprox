@@ -1,3 +1,9 @@
+# ***[ ! ] Project Depreciation*** 
+On April 4th 2025 this project will be depreciated. \
+See https://github.com/dswan36/SillyLittleFiles/discussions/267 for more info!
+
+<hr>
+
 # EZPROX
 
 [SLF](https://github.com/dswan36/SillyLittleFiles) EZProxy\
