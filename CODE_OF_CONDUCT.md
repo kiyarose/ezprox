@@ -1,3 +1,14 @@
-Note that at the moment this project is more of a proof of concept than a working product.
-Check out https://github.com/dswan36/acprox for an example of a working setup.
-The goal of this project is to get a very very barebones proxy setup, however it seems that due to how some browsers work, this may be harder than it seems. I would appreciate help to get this working, but I don't expect it.
+<center>
+
+# EZPROX Code of Conduct
+
+This project is a proof of concept for a very simplified proxy setup. \
+This project is using @titaniumnetwork-dev/ultraviolet^2.0.0 & @tomphttp/bare-server-node
+
+- Those who wish to contribute should follow Standard rules of etiquette when making changes, changes should reflect the wants and needs of the users.
+- Changes made should not change the operation of the product, not add bloat to the oversimplified design for the end user experience.
+- Contributions should me made in good faith, and with the intention of improving the code base
+- Issues, Bugs, Etc. Should be submitted [here](https://github.com/dswan36/SillyLittleFiles/issues/new/choose).
+- Security concerns shall be reported to **_technology@sillylittle \[dot] tech_** or to **_kk5dire@pm \[dot] me_**.
+
+</center>
