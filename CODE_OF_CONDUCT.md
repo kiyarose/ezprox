@@ -1,6 +1,7 @@
 <center>
 
 # EZPROX Code of Conduct
+
 This project is a proof of concept for a very simplified proxy setup. \
 This project is using @titaniumnetwork-dev/ultraviolet^2.0.0 & @tomphttp/bare-server-node
 
@@ -8,6 +9,6 @@ This project is using @titaniumnetwork-dev/ultraviolet^2.0.0 & @tomphttp/bare-se
 - Changes made should not change the operation of the product, not add bloat to the oversimplified design for the end user experience.
 - Contributions should me made in good faith, and with the intention of improving the code base
 - Issues, Bugs, Etc. Should be submitted [here](https://github.com/dswan36/SillyLittleFiles/issues/new/choose).
-- Security concerns shall be reported to ***technology@sillylittle \[dot] tech*** or to ***kk5dire@pm \[dot] me***.
+- Security concerns shall be reported to **_technology@sillylittle \[dot] tech_** or to **_kk5dire@pm \[dot] me_**.
 
 </center>
