@@ -1,10 +1,5 @@
-# ***[ ! ] Project Depreciation*** 
-On April 4th 2025 this project will be depreciated. \
-See https://github.com/dswan36/SillyLittleFiles/discussions/267 for more info!
-
-<hr>
-
 # EZPROX
+<img align="left" src="" height="200" width="200" alt="badge"/>
 
 [SLF](https://github.com/dswan36/SillyLittleFiles) EZProxy\
 <sub>Powered by [<img width=18 src="https://vercel.com/favicon.ico"></img>](https://vercel.app)</sub>
@@ -17,3 +12,7 @@ or use the public url @ https://prox.sillylittle.tech
 
 API Expects a http URL after the first trailing slash.
 Invalid URL will return error.
+<br />
+<hr>
+On April 4th 2025 this project will be depreciated. \
+See https://github.com/dswan36/SillyLittleFiles/discussions/267 for more info!
