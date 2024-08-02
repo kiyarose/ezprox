@@ -1,4 +1,5 @@
 # EZPROX
+
 <img align="left" src="https://github.com/dswan36/acprox/blob/newlogo/public/assets/ezprox.png" height="200" width="200" alt="badge"/>
 
 [SLF](https://github.com/dswan36/SillyLittleFiles) EZProxy\
@@ -13,6 +14,7 @@ or use the public url @ https://prox.sillylittle.tech
 API Expects a http URL after the first trailing slash.
 Invalid URL will return error.
 <br />
+
 <hr>
 On April 4th 2025 this project will be depreciated. 
 See https://github.com/dswan36/SillyLittleFiles/discussions/267 for more info!
