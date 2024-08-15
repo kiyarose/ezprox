@@ -9,10 +9,10 @@ function loadcustomapp() {
   if (!getObj('customapps')) {
     setObj('customapps', [])
   }
-  let name = prompt('What should this app be named? (required)')
-  let url = prompt("What's this app's url? (required)")
-  let icon = prompt("What's this app's icon? (optional)")
-  let description = prompt("What's this app's description? (optional)")
+  const name = prompt('What should this app be named? (required)')
+  const url = prompt("What's this app's url? (required)")
+  const icon = prompt("What's this app's icon? (optional)")
+  const description = prompt("What's this app's description? (optional)")
 
   if (!name || !url) return alert('All required fields must be filled in')
   if (name.length > 15) return alert('App name is too long (max 30 characters)')
@@ -51,10 +51,10 @@ function loadcustomgame() {
   if (!getObj('customgames')) {
     setObj('customgames', [])
   }
-  let name = prompt('What should this game be named? (required)')
-  let url = prompt("What's this game's url? (required)")
-  let icon = prompt("What's this game's icon? (optional)")
-  let description = prompt("What's this game's description? (optional)")
+  const name = prompt('What should this game be named? (required)')
+  const url = prompt("What's this game's url? (required)")
+  const icon = prompt("What's this game's icon? (optional)")
+  const description = prompt("What's this game's description? (optional)")
 
   if (!name || !url) return alert('All required fields must be filled in')
   if (name.length > 15) return alert('Game name is too long (max 30 characters)')
