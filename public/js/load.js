@@ -30,12 +30,12 @@ if (params.get("game")) {
 if (!getObj("favoritedGames")) setObj("favoritedGames", []);
 if (!getObj("favoritedApps")) setObj("favoritedApps", []);
 
-let favoritedButton = document.querySelector(".favorited");
-let favoritedGames = getObj("favoritedGames");
-let favoritedApps = getObj("favoritedApps");
+const favoritedButton = document.querySelector(".favorited");
+const favoritedGames = getObj("favoritedGames");
+const favoritedApps = getObj("favoritedApps");
 
-let game = params.get("game");
-let app = params.get("app");
+const game = params.get("game");
+const app = params.get("app");
 
 if (favoritedGames.includes(game)) {
   favoritedButton.classList.remove("far");
