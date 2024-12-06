@@ -1,7 +1,7 @@
 /*global Ultraviolet*/
 self.__uv$config = {
   prefix: "/",
-  bare: "https://go.sillylittle.tech/bare/",
+  bare: "https://go2.sillylittle.tech/bare/",
   handler: "/uv/uv.handler.js",
   client: "/uv/uv.client.js",
   bundle: "/uv/uv.bundle.js",
